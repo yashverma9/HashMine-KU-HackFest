@@ -1,5 +1,14 @@
 # HashPay.AR
- Project submission repository for KU HackFest: Team HashMine
+<br>
+ <p align="center">
+  <img src="https://github.com/yashverma9/HashMine-KU-HackFest/blob/main/Snaps/1.jpg">
+</p>
+<br>
+<br>
+ <p align="center">
+  <img src="https://github.com/yashverma9/HashMine-KU-HackFest/blob/main/Snaps/2.jpg">
+</p>
+<br>
 
 ### Following tools and libraries are required to run the project:
 - Unity
