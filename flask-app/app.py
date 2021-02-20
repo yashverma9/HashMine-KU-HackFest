@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,session
 from web3 import Web3
 
 app = Flask(__name__)
 app.static_folder = 'static'
+app.secret_key = 'the random string'
 
 #Ethereum-ganache
 ganache_url = "HTTP://127.0.0.1:8545"
@@ -22,6 +23,19 @@ def camera():
 @app.route("/register")
 def register():
     return render_template("register.html")
+
+@app.route("/amount")
+def amount():
+    return render_template("amount.html")
+
+@app.route("/otp")
+def otp():
+    return render_template("otp.html")
+
+@app.route("/success")
+def success():
+    bal =  session.pop('balance_sender' , None) 
+    return render_template("success.html" , bal = bal)
 
 
 @app.route("/makePayment", methods = ["POST"])
@@ -76,7 +90,10 @@ def makePayment():
 
     balance_receiver = web3.eth.getBalance(receiver)
     balance_receiver = web3.fromWei(balance_receiver,'ether')
-    return render_template("file_name.html", sender_bal = sender_bal, receiver_bal = receiver_bal) #Add your html file name and use variables accordingly
+
+    session["balance_receiver"] = int(balance_receiver)
+    session["balance_sender"] = int(balance_sender)
+    return render_template("otp.html") #Add your html file name and use variables accordingly
 
 
 

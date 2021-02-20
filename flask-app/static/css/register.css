@@ -240,4 +240,43 @@ input[type="radio"] {
 a {
   text-decoration: none;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EDC530;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  width: 75vw;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #b6910b;
+}
+
+/* Show the dropdown menu on hover */
+#dd:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.show {
+  display: block;
+}
 /*# sourceMappingURL=register.css.map */

@@ -160,4 +160,35 @@ html, body {
 a {
   text-decoration: none;
 }
+
+.balance {
+  width: 60%;
+  height: 40px;
+  background-color: #EDC530;
+  border-radius: 5px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.balance p {
+  margin: 0;
+  padding: 0;
+  margin: 0  auto;
+  text-align: center;
+  color: #181818 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
 /*# sourceMappingURL=home.css.map */
