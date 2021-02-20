@@ -1,4 +1,4 @@
-# HashMine-KU HackFest
+# HashPay.AR
  Project submission repository for KU HackFest: Team HashMine
 
 ### Following tools and libraries are required to run the project:
