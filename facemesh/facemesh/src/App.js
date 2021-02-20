@@ -5,6 +5,8 @@ import * as tf from "@tensorflow/tfjs";
 import * as facemesh from "@tensorflow-models/facemesh";
 import Webcam from "react-webcam";
 import { drawMesh } from "./utilities";
+import menuimg from "./menu-outline.png"
+import personimg from "./person-outline.png"
 // import { LogoNodejs } from 'react-ionicons'
 
 function App() {
@@ -66,20 +68,17 @@ function App() {
       <div class="grid-container">
         <div class="grid-item grid-item-1">
           <div class="nav-icon-background" onclick="openNav()" >
-            {/* <ion-icon style="font-size: 40px;" name="menu-outline"></ion-icon> */}
-            {/* <LogoNodejs
-              color={'#00000'}
-              rotate
-              height="250px"
-              width="250px"
-              onClick={() => alert('Hi!')}
-            /> */}
+            <img className="myimg" src={menuimg} />
+
+
           </div>
           <a href="/"> <p class="logo">HashMine</p></a>
 
 
           <div class="nav-icon-background">
-            {/* <ion-icon style="font-size: 40px;" name="person-outline"></ion-icon> */}
+
+            <img className="myimg" src={personimg} />
+
           </div>
         </div>
 
