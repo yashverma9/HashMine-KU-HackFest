@@ -1,5 +1,23 @@
 # HashPay.AR
- Project submission repository for KU HackFest: Team HashMine
+
+### Steps to run 
+- Change directory to flask app: cd /flask-app
+- Open 2 different terminals
+- 1st terminal (To run the flask app): ```python3 app.py ``` 
+- 2nd terminal (To run ganache for local ethereum blockchain): ``` ganache-cli -d ``` 
+
+<br>
+ <p align="center">
+  <img src="https://github.com/yashverma9/HashMine-KU-HackFest/blob/main/Snaps/1.jpg">
+</p>
+<br>
+<br>
+ <p align="center">
+  <img src="https://github.com/yashverma9/HashMine-KU-HackFest/blob/main/Snaps/2.jpg">
+</p>
+<br>
+
+
 
 ### Following tools and libraries are required to run the project:
 - Unity
