@@ -21,7 +21,7 @@
 
 ### Following tools and libraries are required to run the project:
 - Unity
-- Vuphoria
+- Vuforia
 - Ethereum Blockchain
 - Web3 
 - Ganache CLI
@@ -38,7 +38,7 @@ A framework purpose-built for AR development allows you to develop your app once
 
 Download link: https://unity3d.com/get-unity/download
 
-#### Vuphoria
+#### Vuforia
 Vuforia is an augmented reality software development kit for mobile devices that enables the creation of augmented reality applications. It uses computer vision technology to recognize and track planar images and 3D objects in real time.
 
 Download link: https://developer.vuforia.com/downloads/sdk
