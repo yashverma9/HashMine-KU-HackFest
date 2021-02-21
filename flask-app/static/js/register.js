@@ -12,7 +12,7 @@ dropdownitem.addEventListener(
 
     dm.classList.remove("show");
     var text = document.getElementsByClassName("scan-button-text");
-    text[0].innerHTML = "Nepal Bank";
+    text[0].innerHTML = "Ethereum Wallet";
     ev.preventDefault();
   },
   false
